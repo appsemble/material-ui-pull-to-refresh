@@ -1,5 +1,7 @@
 # material-ui-pull-to-refresh
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/appsemble/material-ui-pull-to-refresh.svg)](https://greenkeeper.io/)
+
 > Pull to refresh for react based on material-ui.
 
 [![Build Status](https://travis-ci.org/appsemble/material-ui-pull-to-refresh.svg?branch=master)](https://travis-ci.org/appsemble/material-ui-pull-to-refresh)
