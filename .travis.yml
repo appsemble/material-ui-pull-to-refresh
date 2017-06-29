@@ -1,3 +1,11 @@
 language: node_js
 node_js:
 - '8.0'
+deploy:
+  provider: npm
+  email: remcohaszing@gmail.com
+  api_key:
+    secure: Ez1VXMsPlS9gHGMHSH/Az0t34LpLmkasvjIyJnJAcHoh+zxePZ051Qe5IPH0u2JeJHEgM7iklirDxFzcwMGeCRTJ/9QbVjzGedouwmcW3hOkBCNyG9SwmTu93CAILmYasOWjML2M5TA8SoPJV/5HQY+in5THsQ41ayH8zKbU384kLFICUvNuq5dzIW78V5/SrAV5bQOTQl/mDg4Qq0qnNUOhLLVNwtIZm5aBKLGc/98drgaP6w20P/Eq5QPaHz6eHqmamUBTm0aLmrDno+8s2j7xwqgy21nSBG5Szyr3ipNg+ihgjkH7WQSKCqMo/ODmG8w+vwLa6TYJNpi8ZJzfeJ/7UwxdWRl71/OMBHE0OMwARGk2i/mzA5O67iLQBXHaZ8hz4UxgE+3AAKZbvIRjspjuODkKel28QwPfaI8snXsagDDEFWAy1/ZrkvYspkO5dxBn2CdurKyFlso25SHvaeF7m2/MKRn/NB4CHPre1R8z1YiHB2Z1R71eOwbn0BG2kbzR55UuBAB2htEWHKFbpRtsQqtED9xE2Tra6n+rZH4DAnVp8NpoU5d5UXYIsn936UV2BpZ3OkFNnoMs6AwV2D/iZdOArtG3G7DBOHM2fYsmsJNVX51cKWdgNWECq8TahkRoksOwMl+u4ktGsRGa2EhmcMLlEaF9Itdm7jklnPs=
+  on:
+    tags: true
+    repo: appsemble/material-ui-pull-to-refresh
