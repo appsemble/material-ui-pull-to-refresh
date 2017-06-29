@@ -1,0 +1,26 @@
+extends: airbnb
+
+parser: babel-eslint
+
+plugins:
+  - babel
+
+env:
+  browser: true
+  mocha: true
+
+globals:
+  expect: true
+
+
+rules:
+  babel/no-invalid-this: 2
+  babel/semi: 2
+
+  # This is handled by babel. Turning of this rules allows to define pure
+  # components having static propTypes.
+  react/prefer-stateless-function: off
+
+  import/no-extraneous-dependencies:
+    - error
+    - devDependencies: true

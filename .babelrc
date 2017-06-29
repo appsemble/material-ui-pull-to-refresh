@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "stage-0",
+    "es2015",
+    "react"
+  ],
+  "plugins": [
+    "babel-plugin-transform-class-properties",
+    "transform-react-pure-class-to-function",
+    ["transform-react-remove-prop-types", {
+      "mode": "unsafe-wrap"
+    }]
+  ]
+}

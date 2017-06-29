@@ -1,0 +1,26 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.body {
+  height: 100%;
+  background-color: #212121;
+  overflow-y: hidden;
+}
+
+.pull {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  overflow: auto;
+}
+
+.card {
+  margin: 10px;
+}
