@@ -1,6 +1,6 @@
 {
   "name": "material-ui-pull-to-refresh",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pull to refresh for react based on material-ui.",
   "main": "lib/PullToRefresh.js",
   "scripts": {
