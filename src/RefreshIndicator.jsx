@@ -51,6 +51,7 @@ export default class RefreshIndicator extends React.Component {
               left: 0,
               right: 0,
               top: size * 0.1,
+              zIndex: 1000000,
             }}
           />
         ) : (
