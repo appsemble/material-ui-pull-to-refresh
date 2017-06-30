@@ -11,11 +11,11 @@ deploy:
   on:
     tags: true
     repo: appsemble/material-ui-pull-to-refresh
-- provider: releases
-  api_key:
-    secure: ROhxsKKujef8odL2deyDhdLMyjxjXFe7hG1KrL5SabUcV/7Hz6ZibvNnPQC2Dy39XBL4TwlO70/+zl4TSSSaf+lC/XbpN9TcFJZed6Jh66dQ+1/DNZYprB1sgI/oRwvaaDip0+bTEEgLgE+oRzKsbuwchJaXu768q9Iv7AXR3XS1z+O9g2zhzpXkypeSZOqhGmjqy9VO3ILGc/Qtt21a3yf1FdktocYjYmX7ircZcbjZSY66ugCPy0cBlFMjIpnnpTAmUdSuGqViW8zVk3e+ARzVC+fIQoBP4itACo4KtzKpzsisIis3j9GHBqotWitAd1oVKdeH2EPDZGJsio3Q+3Vg+SHIfLF0sv76wZMCIPG9qECCtQitzdZ/wGm0we5n9BkkZmsKlHS/HdtDX9izJZUr+TZNs6XzU513ewUXyfaIz5uGg+vfMXSAUIlKEfPTxAlTpOdvp175jcB0nbji798uWCCGby/LKkflU/hEygSthjAA+AJL1dIsxA9vB4ln2R2MGGLB3u9gARWOiG/4saGrkmj73KH7p8Z4Bdf6mWL+dS41YfDMooRs2PXsv+/osuqvnjHXrdY5iFIa1JvfiHjBkBO1Uu+JeT+xc0M5pF1AaYYjj5whJQcIR4KcmDhnHBTLkcuZoBq4r6FP7Ce/BN0MuEk1Nvog2UuRiuU3Ssc=
-  file: CHANGELOG.md
-  skip_cleanup: true
-  on:
-    tags: true
-    repo: appsemble/material-ui-pull-to-refresh
+# - provider: releases
+#   api_key:
+#     secure: ROhxsKKujef8odL2deyDhdLMyjxjXFe7hG1KrL5SabUcV/7Hz6ZibvNnPQC2Dy39XBL4TwlO70/+zl4TSSSaf+lC/XbpN9TcFJZed6Jh66dQ+1/DNZYprB1sgI/oRwvaaDip0+bTEEgLgE+oRzKsbuwchJaXu768q9Iv7AXR3XS1z+O9g2zhzpXkypeSZOqhGmjqy9VO3ILGc/Qtt21a3yf1FdktocYjYmX7ircZcbjZSY66ugCPy0cBlFMjIpnnpTAmUdSuGqViW8zVk3e+ARzVC+fIQoBP4itACo4KtzKpzsisIis3j9GHBqotWitAd1oVKdeH2EPDZGJsio3Q+3Vg+SHIfLF0sv76wZMCIPG9qECCtQitzdZ/wGm0we5n9BkkZmsKlHS/HdtDX9izJZUr+TZNs6XzU513ewUXyfaIz5uGg+vfMXSAUIlKEfPTxAlTpOdvp175jcB0nbji798uWCCGby/LKkflU/hEygSthjAA+AJL1dIsxA9vB4ln2R2MGGLB3u9gARWOiG/4saGrkmj73KH7p8Z4Bdf6mWL+dS41YfDMooRs2PXsv+/osuqvnjHXrdY5iFIa1JvfiHjBkBO1Uu+JeT+xc0M5pF1AaYYjj5whJQcIR4KcmDhnHBTLkcuZoBq4r6FP7Ce/BN0MuEk1Nvog2UuRiuU3Ssc=
+#   file: CHANGELOG.md
+#   skip_cleanup: true
+#   on:
+#     tags: true
+#     repo: appsemble/material-ui-pull-to-refresh
