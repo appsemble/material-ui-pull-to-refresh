@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server",
     "prepublishOnly": "babel src --out-dir lib --source-maps inline",
-    "test": "eslint --max-warnings 0 --ext js,jsx ."
+    "test": "eslint --max-warnings 0 --ext js,jsx .",
+    "changelog": "conventional-changelog -o CHANGELOG.md"
   },
   "author": "Appsemble <support@appsemble.com>",
   "license": "MIT",
@@ -28,6 +29,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "conventional-changelog-cli": "^1.3.1",
     "css-loader": "^0.28.4",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.1",
