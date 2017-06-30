@@ -40,6 +40,7 @@ export default class RefreshIndicator extends React.Component {
           width: size,
           height: size,
           zIndex: 1000000,
+          transition: null,
         }}
         circle
       >
